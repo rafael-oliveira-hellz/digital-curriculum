@@ -1,7 +1,6 @@
 // import { dom } from '@fortawesome/fontawesome-svg-core'
 
 // dom.watch() // This will kick off the initial replacement of i to svg tags and configure a MutationObserver
-
 import GeneralDataCard from "./Components/GeneralDataCard";
 import RightDataArea from "./Components/RightDataArea";
 import Footer from "./Components/Footer";
@@ -14,7 +13,7 @@ function App() {
       <div className="dark-mode" id="dark-container">
 
         <div className="dark-mode-switcher-area">
-          <label for="dark-mode" className="dark-mode-switcher-button"></label>
+          <label htmlFor="dark-mode" className="dark-mode-switcher-button"></label>
         </div>
 
         <div className="container margin-top">

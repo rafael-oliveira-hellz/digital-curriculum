@@ -2,6 +2,7 @@ import ProfessionalProfileCard from "../ProfessionalProfileCard";
 import ProfessionalExperienceCard from "../ProfessionalExperienceCard";
 import AcademicBackgroundCard from "../AcademicBackgroundCard";
 import CoursesCard from "../CoursesCard";
+import '../../styles/css/index.css';
 
 const RightDataArea = () => {
     return (

@@ -1,5 +1,6 @@
 import { faBook, faCalendar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import '../../styles/css/index.css';
 
 const CoursesCard = () => {
     return (

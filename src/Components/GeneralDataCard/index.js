@@ -4,18 +4,21 @@ import { data } from '../../utils';
 import { langData } from '../../utils';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAsterisk, faBriefcase, faEnvelope, faGlobe, faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
+import '../../styles/css/index.css';
 
 const GeneralDataCard = () => {
 
     function renderDataProgressBar() {
-        return data.map((title, percentual) => {
-            return <ProgressBar title={title} percentual={percentual} />
+        return data.map((obj, index) => {
+            return (
+                <ProgressBar key={index} title={obj.title} percentual={obj.percentual} />
+            )
         })
     }
 
     function renderLangDataProgressBar() {
-        return langData.map((title, percentual, level) => {
-            return <ProgressBar title={title} percentual={percentual} level={level} />
+        return langData.map(obj => {
+            return <ProgressBar title={obj.title} percentual={obj.percentual} level={obj.level} />
         })
     }
 
