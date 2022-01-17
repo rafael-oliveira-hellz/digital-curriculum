@@ -11,7 +11,7 @@ const Footer = () => {
 
               <ul className="list-group">
                   <li><a href="http://bit.ly/raosilva-fb" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} className='hover-opacity' style={{paddingRight: '0.625rem'}} /></a></li>
-                  <li><a href="https://bit.ly/raosilva-git" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} className='hover-opacity' style={{paddingRight: '0.625rem'}} /></a></li>
+                  <li><a href="https://bit.ly/raosilva-github" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} className='hover-opacity' style={{paddingRight: '0.625rem'}} /></a></li>
                   <li><a href="https://bit.ly/raosilva-bb" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faBitbucket} className='hover-opacity' style={{paddingRight: '0.625rem'}} /></a></li>
                   <li><a href="https://bit.ly/rafael-in" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} className='hover-opacity' style={{paddingRight: '0.625rem'}} /></a></li>
               </ul>
