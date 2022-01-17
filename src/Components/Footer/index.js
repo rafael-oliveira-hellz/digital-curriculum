@@ -1,6 +1,7 @@
 import { faBitbucket, faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../../styles/css/index.css';
+import styles from './Footer.module.css';
 
 const Footer = () => {
     return (
@@ -8,7 +9,7 @@ const Footer = () => {
           <div className="card-footer">
               <p className="margin-bottom">Me encontre nas redes sociais!</p>
 
-              <ul>
+              <ul className="list-group">
                   <li><a href="http://bit.ly/raosilva-fb" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} className='hover-opacity' style={{paddingRight: '0.625rem'}} /></a></li>
                   <li><a href="https://bit.ly/raosilva-git" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} className='hover-opacity' style={{paddingRight: '0.625rem'}} /></a></li>
                   <li><a href="https://bit.ly/raosilva-bb" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faBitbucket} className='hover-opacity' style={{paddingRight: '0.625rem'}} /></a></li>

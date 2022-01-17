@@ -1,0 +1,120 @@
+:root {
+    --mainBgColor: #FFFFFF;
+    --footerBgColor: #000000;
+    --mainText: #000000;
+    --secondaryText: #FFFFFF;
+    --thirdColorText: #000000;
+    --lightGreyText: #F1F1F1;
+    --GreyText: #757575;
+    --tag: #FFFFFF;
+    --tagWp: #FFFFFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 0.625rem 0;
+}
+
+h1 {
+    font-size: 2.125rem;
+}
+
+h2 {
+    font-size: 1.875rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+.content:after,
+.content:before,
+.main:after,
+.main:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    padding: 0.01em 1rem;
+}
+
+.full_text {
+    color: var(--mainText);
+    font-size: 1.125rem;
+}
+
+.black_text {
+    color: var(--mainText);
+}
+
+.grey_text {
+    color: var(--GreyText);
+    padding: 1rem 0;
+}
+
+.text_uppercase {
+    text-transform: uppercase;
+}
+
+.card_right {
+    color: var(--mainText);
+    background-color: var(--mainBgColor);
+    box-shadow: 0 0.125rem 0.3125rem 0 rgba(0, 0, 0, 0.16), 0 0.125rem 0.625rem 0 rgba(0, 0, 0, 0.12);
+}
+
+.card_right a {
+    color: var(--GreyText);
+}
+
+.tag {
+    background-color: var(--footerBgColor);
+    color: var(--tag);
+    display: inline-block;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+}
+
+.opacity,
+.hover_opacity:hover {
+    opacity: 0.6;
+}
+
+.margin_bottom {
+    margin-bottom: 1rem !important;
+}
+
+.margin_right {
+    margin-right: 1rem !important;
+}
+
+hr {
+    border: 0;
+    border-top: 0.0625rem solid #EEEEEE;
+    margin: 1.25rem 0;
+}

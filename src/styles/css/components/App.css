@@ -124,6 +124,7 @@ main > .right-content {
 .right-content {
   float: left;
   width: 100%;
+  min-width: 432px;
 }
 
 .card-left {
@@ -148,6 +149,7 @@ main > .right-content {
   position: relative;
   margin: 0;
   padding: 0;
+  padding-top: 0.9375rem;
 }
 
 img {
@@ -160,6 +162,15 @@ img {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+
+.personal-data ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.personal-data ul li a {
+  text-decoration: none;
 }
 
 .display-bottomleft {
@@ -279,6 +290,10 @@ img {
   opacity: 0.6;
 }
 
+.list-group {
+  list-style-type: none;
+}
+
 .footer-content {
   text-align: center;
   padding: 0;
@@ -293,7 +308,7 @@ img {
 }
 
 footer .card-footer p {
-  font-size: 1.125rem;
+  font-size: 1.625rem;
 }
 
 footer .card-footer ul {
@@ -307,12 +322,12 @@ footer .card-footer ul li {
 
 footer .card-footer ul li a {
   color: var(--secondaryText);
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 footer .card-footer ul li a:hover {
   color: var(--secondaryText);
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -331,10 +346,6 @@ footer .card-footer ul li a:hover {
   }
 }
 @media (max-width: 478px) {
-  .dark-mode-switcher-area {
-    right: 2.125rem;
-  }
-
   section figure figcaption h1 {
     font-size: 1.5625rem;
   }

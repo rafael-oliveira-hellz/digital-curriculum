@@ -11,7 +11,7 @@
     padding: 0.2rem;
     position: absolute;
     top: 1.5rem;
-    right: 5.125rem;
+    right: 15.125rem;
   }
   
   .dark-mode-switcher-button {
@@ -61,4 +61,10 @@
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
+  }
+
+  @media (max-width: 478px) {
+    .dark-mode-switcher-area {
+        right: 0;
+    }
   }

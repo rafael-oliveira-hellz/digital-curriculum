@@ -12,27 +12,27 @@ const CoursesCard = () => {
 
                 <h6 className='black-text'><FontAwesomeIcon icon={faCalendar} className='margin-right' />02/2021 - <span className='tag text-uppercase'>Presente</span></h6>
 
-                <p className='text-uppercase'>Front-end development</p> <br />
+                <p className='text-uppercase'>Front-end development</p>
 
-                <ul style={{marginLeft: '20px'}}>
-                    <li>• HTML5</li>
-                    <li>• CSS3</li>
-                    <li>• Javascript do Básico ao Avançado</li>
-                    <li>• jQuery</li>
-                    <li>• Bootstrap</li>
-                    <li>• ECMAScript 6+ (ES6+)</li>
-                    <li>• Arquitetura de CSS (BEM)</li>
-                    <li>• SASS e Webpack</li>
-                    <li>• Gulp</li>
-                    <li>• ReactJS e Redux</li>
-                    <li>• VueJS</li>
-                    <li>• Angular</li>
-                    <li>• ServiceWorkers e Progressive WebApps (PWA)</li>
-                    <li>• TypeScript</li>
-                    <li>• GraphQL</li>
-                    <li>• User Interface (UI)</li>
-                    <li>• User Experience (UX)</li>
-                    <li>• Conceitos de Design</li>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript do Básico ao Avançado</li>
+                    <li>jQuery</li>
+                    <li>Bootstrap</li>
+                    <li>ECMAScript 6+ (ES6+)</li>
+                    <li>Arquitetura de CSS (BEM)</li>
+                    <li>SASS e Webpack</li>
+                    <li>Gulp</li>
+                    <li>ReactJS e Redux</li>
+                    <li>VueJS</li>
+                    <li>Angular</li>
+                    <li>ServiceWorkers e Progressive WebApps (PWA)</li>
+                    <li>TypeScript</li>
+                    <li>GraphQL</li>
+                    <li>User Interface (UI)</li>
+                    <li>User Experience (UX)</li>
+                    <li>Conceitos de Design</li>
                 </ul>
 
                 <hr />

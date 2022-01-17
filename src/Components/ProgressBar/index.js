@@ -4,8 +4,8 @@ const ProgressBar = ({ title = '', percentual = '0%', level = null }) => {
 
     return (
         <div>
-            <p>{title}</p>
-             <div className="progress-bar-bg mb-1">
+            <p className='margin-right margin-left'>{title}</p>
+             <div className="progress-bar-bg mb-1 margin-right margin-left">
                 <div className="progress-bar" style={{ width: `${percentual}` }} >{level ?? percentual}</div>
              </div>
         </div>
