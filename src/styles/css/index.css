@@ -22,7 +22,6 @@ html {
 
 html,
 body {
-  font-family: Verdana, sans-serif;
   font-size: 0.9375rem;
   line-height: 1.5;
 }
@@ -229,7 +228,7 @@ img {
 
 /* MARGINS */
 .margin {
-  margin: 1rem !important;
+  margin: 1rem 0 auto !important;
 }
 
 .margin-top {
@@ -494,6 +493,71 @@ body {
   .dark-mode-switcher-area {
     right: 0;
   }
+}
+.badges-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 14px;
+}
+
+.badges {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.badge-html5 {
+  color: #e54d26;
+}
+
+.badge-css3 {
+  color: #254bdc;
+}
+
+.badge-js {
+  color: #f0d63b;
+}
+
+.badge-sass {
+  color: #c76395;
+}
+
+.badge-bootstrap {
+  color: #7010ee;
+}
+
+#ts-badge img {
+  border-radius: 0;
+  width: 56.25px;
+  cursor: pointer;
+}
+
+#scrum-badge img {
+  border-radius: 0;
+  width: 56.25px;
+  cursor: pointer;
+}
+
+.badge-reactjs {
+  color: #00c6f7;
+}
+
+.badge-php {
+  color: #5e7eb1;
+}
+
+#python-badge img {
+  border-radius: 0;
+  width: 49.22px;
+  cursor: pointer;
+}
+
+.badge-sql {
+  color: #f6ad00;
+}
+
+.badge-git {
+  color: #000;
 }
 
 /*# sourceMappingURL=index.css.map */

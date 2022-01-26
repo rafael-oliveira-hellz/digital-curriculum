@@ -22,7 +22,6 @@ html {
 
 html,
 body {
-  font-family: Verdana, sans-serif;
   font-size: 0.9375rem;
   line-height: 1.5;
 }
@@ -231,7 +230,7 @@ img {
 /* MARGINS */
 
 .margin {
-  margin: 1rem !important;
+  margin: 1rem 0 auto !important;
 }
 
 .margin-top {

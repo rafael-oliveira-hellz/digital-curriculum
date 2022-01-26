@@ -1,19 +1,11 @@
 import logo from '../../assets/images/logo-png.png';
 import ProgressBar from '../ProgressBar';
-import { data } from '../../utils';
+import Skills from '../Skills';
 import { langData } from '../../utils';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAsterisk, faBriefcase, faEnvelope, faGlobe, faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const GeneralDataCard = () => {
-
-    function renderDataProgressBar() {
-        return data.map((obj, index) => {
-            return (
-                <ProgressBar key={index} title={obj.title} percentual={obj.percentual} />
-            )
-        })
-    }
 
     function renderLangDataProgressBar() {
         return langData.map(obj => {
@@ -51,7 +43,7 @@ const GeneralDataCard = () => {
                 <br />
                     <h2 className='margin-left'><b className="text-uppercase"><FontAwesomeIcon icon={faAsterisk} className='margin-right full-text' />Skills</b></h2><br />
 
-                    {renderDataProgressBar()}
+                    <Skills />
                 </section>
 
                 <hr />
