@@ -61,7 +61,7 @@
 }
 
 .badge-git {
-  color: #000;
+  color: var(--mainText);
 }
 
 /*# sourceMappingURL=Badges.css.map */
