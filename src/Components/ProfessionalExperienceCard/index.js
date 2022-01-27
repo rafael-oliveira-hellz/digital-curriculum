@@ -8,11 +8,11 @@ const ProfessionalExperienceCard = () => {
             <h2 className='grey-text text-uppercase'><FontAwesomeIcon icon={faSuitcase} className='margin-right black-text' />Experiência Profissional</h2>
 
             <div className='content'>
-                <h5 className='opacity'><b className='text-uppercase'>Web Developer Freelancer</b></h5>
-                <h6 className='black-text'><FontAwesomeIcon icon={faCalendar} className='margin-right' />05/2020 - <span className='tag text-uppercase'>Presente</span></h6>
+                <h5 className='opacity'><b className='text-uppercase'>Global Quality Analyst - Hotmart</b></h5>
+                <h6 className='black-text'><FontAwesomeIcon icon={faCalendar} className='margin-right' />04/2021 - <span className='tag text-uppercase'>Presente</span></h6>
 
                 <p>
-                    Desenvolvimento de Websites para todos os fins, de forma autônoma, utilizando ReactJS, Typescript e SASS.
+                    Analisar métricas de qualidade e definir processos e projetos para melhorar os indicadores de atendimento de forma efetiva além de ser responsável por implementar estratégias para garantir a retenção de clientes e fortalecimento da marca. Desenvolver scripts em Python e o front-end para o consumo destes a fim de gerar tickets aleatórios para a realização das análises.
                 </p>
 
                 <hr />
@@ -23,7 +23,7 @@ const ProfessionalExperienceCard = () => {
                 <h6 className='black-text'><FontAwesomeIcon icon={faCalendar} className='margin-right' />01/2020 - 05/2020</h6>
 
                 <p>
-                    Tabalhei como desenvolvedor junior em sua maioria com Magento, PHP, CSS/SASS, HTML5, Bootstrap e Javascript, aprendendo e me aprimorando com realização de cursos nas diversas áreas e realizando as tasks propostas diariamente.
+                    Desenvolver lojas e-commerce, realizar a manutenção destas e corrigir possíveis bugs com a utilização de Magento, PHP, CSS/SASS, HTML5, Tailwind e Javascript (ES6+). Assim como  também realizando cursos sobre as linguagens de programação e frameworks supracitados.
                 </p>
 
                 <hr />
