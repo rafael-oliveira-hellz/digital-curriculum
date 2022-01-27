@@ -26,9 +26,9 @@ const Skills = () => {
             <section>
                 <div className='margin-right margin-top badges-container'>
                     <Javascript />
-                    <Typescript />
-                    <Scrum />
+                    <Typescript />   
                     <ReactJS />
+                    <Databases />
                 </div>
             </section>
 
@@ -36,8 +36,8 @@ const Skills = () => {
                 <div className='margin-right margin-top badges-container'>
                     <PHP />
                     <Python />
-                    <Databases />
                     <Git />
+                    <Scrum />
                 </div>
             </section>
         </>
