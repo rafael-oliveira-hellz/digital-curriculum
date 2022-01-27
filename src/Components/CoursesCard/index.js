@@ -25,6 +25,7 @@ const CoursesCard = () => {
                     <li>SASS e Webpack</li>
                     <li>Gulp</li>
                     <li>ReactJS e Redux</li>
+                    <li>Next.js</li>
                     <li>VueJS</li>
                     <li>Angular</li>
                     <li>ServiceWorkers e Progressive WebApps (PWA)</li>
