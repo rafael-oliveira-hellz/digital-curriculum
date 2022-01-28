@@ -4,7 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Bootstrap = () => {    
     return (
         <>
-            <h2 id="bootstrap-badge" aria-describedby="tooltip" className='margin-left badge-hovering'><FontAwesomeIcon icon={faBootstrap} className='margin-right badges badge-bootstrap' /></h2>
+            <h2 id="hovering-bootstrap" aria-describedby="tooltip" className='margin-left badge-hovering'>
+                
+                <FontAwesomeIcon icon={faBootstrap} className='margin-right badges badge-bootstrap' />
+            
+                <div className='badge-hover'>Bootstrap</div>
+            
+            </h2>
         </>
     )
 }

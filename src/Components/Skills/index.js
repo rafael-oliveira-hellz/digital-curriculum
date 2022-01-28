@@ -39,7 +39,7 @@ const Skills = () => {
                     <Git />
                     <Scrum />
                 </div>
-            </section>
+            </section> <br /><br />
         </>
 
     )
