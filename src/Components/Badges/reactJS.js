@@ -8,7 +8,7 @@ const reactJS = () => {
                 
                 <FontAwesomeIcon icon={faReact} className='margin-right badges badge-reactjs' />
 
-                <div className='badge-hover'>Noções do framework ReactJS</div>  
+                <div className='badge-hover'>Noções da biblioteca ReactJS</div>  
                 
             </h2>
         </>
