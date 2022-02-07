@@ -183,6 +183,11 @@ h2 > .badge-hover {
     bottom: 35px;
 }
 
+#magento-badge .badge-hover {
+    display: none;
+    position:relative;
+}
+
 #magento-badge:hover .badge-hover {
     position: absolute;
     margin-left: -300px;
