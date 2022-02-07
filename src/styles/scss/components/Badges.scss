@@ -183,6 +183,12 @@ h2 > .badge-hover {
     bottom: 35px;
 }
 
+#magento-badge:hover .badge-hover {
+    position: absolute;
+    margin-left: -300px;
+    bottom: 35px;
+}
+
 // End of Tooltips
 
 #ts-badge img {
@@ -217,4 +223,8 @@ h2 > .badge-hover {
 
 .badge-git {
     color: var(--mainText);
+}
+
+.badge-magento {
+    color: #ed4b24;
 }

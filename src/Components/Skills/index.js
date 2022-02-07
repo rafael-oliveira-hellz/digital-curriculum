@@ -10,6 +10,7 @@ import PHP from '../Badges/php';
 import Python from '../Badges/python';
 import Databases from '../Badges/databases';
 import Git from '../Badges/git';
+import Magento from '../Badges/magento';
 
 const Skills = () => {
     return (
@@ -39,7 +40,13 @@ const Skills = () => {
                     <Git />
                     <Scrum />
                 </div>
-            </section> <br /><br />
+            </section> 
+            
+            <section>
+                <div className='margin-right margin-top badges-container'>
+                    <Magento />
+                </div>
+            </section><br /><br />
         </>
 
     )

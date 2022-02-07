@@ -20,7 +20,7 @@ export const data = [
         percentual: "40%"
     },
     {
-        title: "Noções do framework ReactJS",
+        title: "Noções da biblioteca ReactJS",
         percentual: "50%"
     },
     {

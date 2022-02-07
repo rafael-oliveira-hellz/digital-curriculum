@@ -28,7 +28,7 @@ const GeneralDataCard = () => {
                     <section className='personal-data'>
                         <ul>
                             <li><FontAwesomeIcon icon={faBriefcase} className='margin-right full-text' />Jr Front-End Developer</li>
-                            <li><FontAwesomeIcon icon={faEnvelope} className='margin-right full-text' /><a href="mailto:raosilva3@gmail.com">raosilva3@gmail.com</a></li>
+                            <li><FontAwesomeIcon icon={faEnvelope} className='margin-right full-text' /><a href="mailto:rafael.oliveirasylva@gmail.com">rafael.oliveirasylva@gmail.com</a></li>
                             <li><FontAwesomeIcon icon={faPhone} className='margin-right full-text' /><a href="tel:+5511947485240">(011)
                                             9 4748-5240</a> <a href="http://bit.ly/cv-whatsapp" target="_blank"
                                             rel="noopener noreferrer" id="tag-wp">Me Chame no Whatsapp</a></li>
