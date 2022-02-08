@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+// import { dom } from '@fortawesome/fontawesome-svg-core'
+
+// dom.watch() // This will kick off the initial replacement of i to svg tags and configure a MutationObserver
+import GeneralDataCard from "./Components/GeneralDataCard";
+import RightDataArea from "./Components/RightDataArea";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <input type="checkbox" name="dark-mode" id="dark-mode"></input>
+
+      <div className="dark-mode" id="dark-container">
+
+        <div className="dark-mode-switcher-area">
+          <label htmlFor="dark-mode" className="dark-mode-switcher-button"></label>
+        </div>
+
+        <div className="container margin-top">
+          <main>
+            <GeneralDataCard />
+            <RightDataArea />
+          </main> 
+
+          <Footer />
+        </div>
+      </div>
+    </>
   );
 }
 

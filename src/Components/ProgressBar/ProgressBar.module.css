@@ -1,0 +1,32 @@
+.progress_bar_bg {
+    color: var(--mainText);
+    background-color: var(--lightGreyText);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    font-size: 0.75rem;
+}
+
+.progress_bar {
+    padding: 0.01em 1rem;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    background-color: var(--footerBgColor);
+    color: var(--mainText);
+}
+
+.mb_1 {
+    margin-bottom: 0.4375rem;
+}
+
+.margin_right {
+    margin-right: 2rem !important;
+  }

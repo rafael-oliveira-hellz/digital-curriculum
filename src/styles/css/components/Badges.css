@@ -1,0 +1,216 @@
+.badges-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 14px;
+}
+
+.badges {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.badge-html5 {
+  color: #e54d26;
+}
+
+.badge-css3 {
+  color: #254bdc;
+}
+
+.badge-js {
+  color: #f0d63b;
+}
+
+.badge-sass {
+  color: #c76395;
+}
+
+.badge-bootstrap {
+  color: #7010ee;
+}
+
+h2 > .badge-hover {
+  font-size: 18px;
+  width: 395px;
+}
+
+#hovering-bootstrap .badge-hover {
+  display: none;
+  position: relative;
+}
+
+#hovering-bootstrap:hover .badge-hover {
+  display: block;
+  position: absolute;
+  margin-left: -10px;
+  bottom: 225px;
+}
+
+#hovering-css .badge-hover {
+  display: none;
+  position: relative;
+}
+
+#hovering-css:hover .badge-hover {
+  display: block;
+  position: absolute;
+  bottom: 225px;
+  margin-left: 2px;
+}
+
+#html5-badge .badge-hover {
+  display: none;
+  position: relative;
+}
+
+#html5-badge:hover .badge-hover {
+  display: block;
+  position: absolute;
+  bottom: 225px;
+  margin-left: -5px;
+}
+
+#sass-badge .badge-hover {
+  display: none;
+  position: relative;
+}
+
+#sass-badge:hover .badge-hover {
+  display: block;
+  position: absolute;
+  bottom: 225px;
+  margin-left: 10px;
+}
+
+#js-badge .badge-hover {
+  display: none;
+  position: relative;
+}
+
+#js-badge:hover .badge-hover {
+  display: block;
+  position: absolute;
+  margin-left: -12px;
+  bottom: 125px;
+}
+
+#reactjs-badge .badge-hover {
+  display: none;
+  position: relative;
+}
+
+#reactjs-badge:hover .badge-hover {
+  display: block;
+  position: absolute;
+  margin-left: -75px;
+  bottom: 125px;
+}
+
+#ts-badge .badge-hover {
+  display: none;
+  position: relative;
+}
+
+#ts-badge:hover .badge-hover {
+  display: block;
+  position: absolute;
+  margin-left: -12px;
+  bottom: 125px;
+}
+
+#sql-badge .badge-hover {
+  display: none;
+  position: relative;
+}
+
+#sql-badge:hover .badge-hover {
+  display: block;
+  position: absolute;
+  margin-left: -300px;
+  bottom: 125px;
+}
+
+#php-badge .badge-hover {
+  display: none;
+  position: relative;
+}
+
+#php-badge:hover .badge-hover {
+  display: block;
+  position: absolute;
+  margin-left: 15px;
+  bottom: 35px;
+}
+
+#python-badge .badge-hover {
+  display: none;
+  position: relative;
+}
+
+#python-badge:hover .badge-hover {
+  display: block;
+  position: absolute;
+  margin-left: -5px;
+  bottom: 35px;
+}
+
+#git-badge .badge-hover {
+  display: none;
+  position: relative;
+}
+
+#git-badge:hover .badge-hover {
+  display: block;
+  position: absolute;
+  margin-left: -150px;
+  bottom: 5px;
+}
+
+#scrum-badge .badge-hover {
+  display: none;
+  position: relative;
+}
+
+#scrum-badge:hover .badge-hover {
+  display: block;
+  position: absolute;
+  margin-left: -300px;
+  bottom: 35px;
+}
+
+#ts-badge img {
+  border-radius: 0;
+  width: 56.25px;
+  cursor: pointer;
+}
+
+#scrum-badge img {
+  border-radius: 0;
+  width: 56.25px;
+  cursor: pointer;
+}
+
+.badge-reactjs {
+  color: #00c6f7;
+}
+
+.badge-php {
+  color: #5e7eb1;
+}
+
+#python-badge img {
+  border-radius: 0;
+  width: 49.22px;
+  cursor: pointer;
+}
+
+.badge-sql {
+  color: #f6ad00;
+}
+
+.badge-git {
+  color: var(--mainText);
+}
+
+/*# sourceMappingURL=Badges.css.map */
