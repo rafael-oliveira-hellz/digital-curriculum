@@ -1,3 +1,5 @@
+import React from 'react'
+
 import scrumLogo from '../../assets/images/scrum.png';
 
 const Scrum = () => {    

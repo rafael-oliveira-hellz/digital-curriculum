@@ -1,3 +1,5 @@
+import React from 'react'
+
 import tsLogo from '../../assets/images/ts.png';
 
 const Typescript = () => {    

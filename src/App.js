@@ -1,5 +1,5 @@
 // import { dom } from '@fortawesome/fontawesome-svg-core'
-
+import React from "react";
 // dom.watch() // This will kick off the initial replacement of i to svg tags and configure a MutationObserver
 import GeneralDataCard from "./Components/GeneralDataCard";
 import RightDataArea from "./Components/RightDataArea";

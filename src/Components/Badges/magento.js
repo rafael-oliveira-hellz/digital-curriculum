@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { faMagento } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

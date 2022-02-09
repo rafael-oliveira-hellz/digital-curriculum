@@ -1,4 +1,6 @@
-import { faSuitcase } from '@fortawesome/free-solid-svg-icons';
+import React from 'react'
+
+import { faUserTie } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../../styles/css/index.css';
 
@@ -6,7 +8,7 @@ const ProfessionalProfileCard = () => {
     return (
         <div className='content card-right margin-bottom'>
             <h2 className='grey-text text-uppercase'>
-                <FontAwesomeIcon icon={faSuitcase} className='margin-right black-text' />Perfil Profissional</h2>
+                <FontAwesomeIcon icon={faUserTie} className='margin-right black-text' />Perfil Profissional</h2>
 
             <div className='content'>
                 <p>

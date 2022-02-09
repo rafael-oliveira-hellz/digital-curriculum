@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { faBitbucket, faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import styles from './Footer.module.css';

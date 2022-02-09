@@ -1,3 +1,5 @@
+import React from "react";
+
 import { faBootstrap } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

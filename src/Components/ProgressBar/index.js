@@ -1,3 +1,4 @@
+import React from 'react'
 import PropTypes from 'prop-types'
 
 const ProgressBar = ({ title = '', percentual = '0%', level = null }) => {

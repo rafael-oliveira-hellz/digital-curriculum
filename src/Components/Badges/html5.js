@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

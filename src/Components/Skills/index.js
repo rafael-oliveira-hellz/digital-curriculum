@@ -1,3 +1,5 @@
+import React from 'react'
+
 import Html5 from '../Badges/html5';
 import CSS3 from '../Badges/css3';
 import Javascript from '../Badges/javascript';
@@ -10,10 +12,6 @@ import PHP from '../Badges/php';
 import Python from '../Badges/python';
 import Databases from '../Badges/databases';
 import Git from '../Badges/git';
-<<<<<<< HEAD
-=======
-import Magento from '../Badges/magento';
->>>>>>> 2d7fe96a7e49c017382a32d70c1d31fc198b7ea2
 
 const Skills = () => {
     return (
@@ -43,19 +41,8 @@ const Skills = () => {
                     <Git />
                     <Scrum />
                 </div>
-<<<<<<< HEAD
             </section> <br /><br />
-=======
-            </section> 
-            
-            <section>
-                <div className='margin-right margin-top badges-container'>
-                    <Magento />
-                </div>
-            </section><br /><br />
->>>>>>> 2d7fe96a7e49c017382a32d70c1d31fc198b7ea2
         </>
-
     )
 }
 

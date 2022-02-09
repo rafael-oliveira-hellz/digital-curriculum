@@ -1,3 +1,5 @@
+import React from 'react'
+
 import pythonLogo from '../../assets/images/python.png';
 
 const Python = () => {    

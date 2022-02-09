@@ -1,3 +1,5 @@
+import React from 'react'
+
 import ProfessionalProfileCard from "../ProfessionalProfileCard";
 import ProfessionalExperienceCard from "../ProfessionalExperienceCard";
 import AcademicBackgroundCard from "../AcademicBackgroundCard";
